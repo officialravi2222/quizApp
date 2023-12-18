@@ -1,0 +1,40 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+body{
+background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* width: 90vw;
+height: 100vh; */
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+color: aliceblue;
+}
+.app{
+    /* width: 40%;
+    height: 50%; */
+    padding: 60px;
+    border: 1px solid black;
+}
+#answers{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+justify-content: center;
+align-items: center;
+width: 90%;
+}
+.nxtBtn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    display: block!important;
+}
+
+.correct{
+    background-color: #00F260;
+}
+.incorrect{
+    background-color: red;
+}
